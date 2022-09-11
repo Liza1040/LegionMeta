@@ -26,6 +26,10 @@ form {
 }
 
 .aboutus {
-    margin-top: 20%;
     text-align: center; 
+    margin-top: 30%;
+}
+
+#i-want, #i-am{
+    margin-top: 0%;
 }
