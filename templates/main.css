@@ -1,0 +1,26 @@
+form {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.btn {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #e4e4e6; /* Серый цвет фона */
+    padding: 0.3rem 0.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+    border-color: black;
+    color: #000;
+   }
+
+.profile {
+    text-align: center;
+    margin-top: 40%;
+    color: blueviolet;
+}
+
+.messenger-calendar {
+    text-align: center;
+    margin-top: 40%;
+    color: blueviolet;
+}
