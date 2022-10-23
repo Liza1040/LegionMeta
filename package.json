@@ -1,0 +1,25 @@
+{
+  "name": "legion",
+  "version": "1.0.0",
+  "description": "Проект Legion",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm run build && node server/server.js",
+    "build": "handlebars -m public/src/page/*/*.hbs -f ./public/src/page/templates.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liza1040/LegionMeta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Liza1040/LegionMeta/issues"
+  },
+  "homepage": "https://github.com/Liza1040/LegionMeta#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "handlebars": "^4.7.7",
+    "morgan": "^1.10.0"
+  }
+}
