@@ -1,5 +1,6 @@
 
 import BasePage from '../BasePage.js';
+import '../templates.js';
 
 export default class MainPage extends BasePage {
     /**
@@ -19,6 +20,5 @@ export default class MainPage extends BasePage {
      */
       async render(config) {
         super.render(config);
-
     }
 }
